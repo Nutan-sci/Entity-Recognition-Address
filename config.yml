@@ -1,0 +1,19 @@
+data_dir:
+  dir : data
+  new_file: data/new_file/
+  sample1: data/sample.txt
+  sample2: data/sample_2.txt
+  annotated_data: data/bert_annotated.json
+  spacy_annotated: data/spacy_annotations.json
+  spacy_train_data: data/training_data
+  spcay_config: data/base_config.cfg
+  
+  
+bert_model_dir:
+  dir: saved_models
+  FineTuned_Bert_model: saved_models/bert_models/Lat_Lag_NER
+  bert_model_tokenize: saved_models/bert_models/tokenizer
+  
+spacy_model_dir: 
+  dir: saved_models/spacy_models
+  spacy_model_path: saved_models/spacy_models/model-best
